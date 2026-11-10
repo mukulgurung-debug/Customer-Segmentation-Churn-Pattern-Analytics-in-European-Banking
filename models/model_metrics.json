@@ -1,0 +1,51 @@
+{
+    "total_clients": 10000,
+    "overall_churn_rate": 0.2037,
+    "total_churned_balance": 185588094.63,
+    "total_portfolio_balance": 764858892.8800001,
+    "models": {
+        "Logistic Regression": {
+            "Accuracy": 0.815,
+            "Precision": 0.6330935251798561,
+            "Recall": 0.21621621621621623,
+            "F1-Score": 0.32234432234432236,
+            "ROC-AUC": 0.7812388659846287
+        },
+        "Random Forest": {
+            "Accuracy": 0.866,
+            "Precision": 0.8116591928251121,
+            "Recall": 0.44471744471744473,
+            "F1-Score": 0.5746031746031746,
+            "ROC-AUC": 0.8600125549278091
+        },
+        "Gradient Boosting": {
+            "Accuracy": 0.8685,
+            "Precision": 0.7857142857142857,
+            "Recall": 0.4864864864864865,
+            "F1-Score": 0.6009104704097117,
+            "ROC-AUC": 0.8669933415696129
+        }
+    },
+    "top_features": [
+        {
+            "Feature": "Age",
+            "Importance": 0.33756599414313543
+        },
+        {
+            "Feature": "NumOfProducts",
+            "Importance": 0.2514124817268136
+        },
+        {
+            "Feature": "IsActiveMember_1",
+            "Importance": 0.10607290103258019
+        },
+        {
+            "Feature": "Geography_Germany",
+            "Importance": 0.06564243596314094
+        },
+        {
+            "Feature": "Balance",
+            "Importance": 0.05939196793141228
+        }
+    ]
+}
